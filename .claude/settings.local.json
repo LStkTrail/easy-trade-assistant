@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm add:*)",
+      "Bash(pnpm build:*)",
+      "Bash(dir:*)",
+      "Bash(netstat:*)",
+      "Bash(taskkill:*)",
+      "Bash(git fsck:*)",
+      "Bash(git reset:*)",
+      "Bash(pnpm install:*)",
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "Bash(export:*)",
+      "Read(//e/Code/tauri-app/$HOME/.agents/**)",
+      "Bash(cmd /c \"dir .agents\\\\skills 2>nul || echo .agents directory not found in current project\")"
+    ]
+  }
+}
